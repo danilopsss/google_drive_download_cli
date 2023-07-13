@@ -12,7 +12,3 @@ class RequestsNotFound:
     @property
     def status_code(self):
         return 400
-
-    @property
-    def content(self):
-        return b""
