@@ -3,11 +3,11 @@ from argparse import Namespace
 
 def argument_resolver_helper(func):
     """
-        This decorator aims to resolve the fields parsed by the user.
+    This decorator aims to resolve the fields parsed by the user.
 
-        It will evaluate - as an extra guarantee - if the user informed
-        the parameters and formatting them - remove extra spaces, etc
-        and raise an error If no value is present.
+    It will evaluate - as an extra guarantee - if the user informed
+    the parameters and formatting them - remove extra spaces, etc
+    and raise an error If no value is present.
     """
 
     def wrapper(userargs: Namespace) -> list:
@@ -22,8 +22,8 @@ def argument_resolver_helper(func):
 
 def argument_confirmation(func):
     """
-        This decorator aims to validate with user the options.
-        It will prompt a message and act accordingly.
+    This decorator aims to validate with user the options.
+    It will prompt a message and act accordingly.
     """
 
     def wrapper(args_to_confirm: Namespace):
