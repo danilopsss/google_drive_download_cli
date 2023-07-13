@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "windsor_cli"
+version = "0.1.0"
+description = ""
+authors = ["Danilo Paes"]
+packages = [
+    {include = "windsor-cli"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+pytest-mock = "^3.11.1"
+black = "^23.7.0"
+flake8 = "^6.0.0"
+mypy = "^1.4.1"
+types-requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,2 @@
+class GoogleDriveDownloadException(Exception):
+    pass
