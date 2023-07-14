@@ -1,4 +1,4 @@
-from windsor_cli.src.client_helpers.exceptions import (
+from src.client_helpers.exceptions import (
     GoogleDriveDownloadException,
 )
 

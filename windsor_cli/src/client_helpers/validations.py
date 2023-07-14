@@ -1,4 +1,4 @@
-from windsor_cli.src.client_helpers.decorators import raise_for_status_code
+from src.client_helpers.decorators import raise_for_status_code
 
 
 @raise_for_status_code

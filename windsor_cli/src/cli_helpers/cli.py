@@ -1,5 +1,5 @@
 from argparse import Namespace, ArgumentParser
-from windsor_cli.src.cli_helpers.decorators import (
+from src.cli_helpers.decorators import (
     argument_resolver_helper,
     argument_confirmation,
 )

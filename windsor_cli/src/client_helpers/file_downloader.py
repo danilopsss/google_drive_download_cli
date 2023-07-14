@@ -1,8 +1,8 @@
 import requests
 
-from windsor_cli.src.client_helpers.third_party_configs import GoogleDrive
-from windsor_cli.src.utils.conversions import convert_from_csv_to_dict
-from windsor_cli.src.client_helpers.validations import validate_status_code
+from src.client_helpers.third_party_configs import GoogleDrive
+from src.utils.conversions import convert_from_csv_to_dict
+from src.client_helpers.validations import validate_status_code
 
 
 def get_request() -> requests.Response:

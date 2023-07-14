@@ -14,6 +14,6 @@ class GoogleDrive(Enum):
         GOOGLE_DRIVE_DOWNLOAD_PARAMS = Standard params for download.
     """
 
-    TEST_TASK_DATA_FILE = ""
+    TEST_TASK_DATA_FILE = "1zLdEcpzCp357s3Rse112Lch9EMUWzMLE"
     GOOGLE_DRIVE_DOWNLOAD_URL = "https://drive.google.com/uc?id={}"
     GOOGLE_DRIVE_DOWNLOAD_PARAMS = {"export": "download"}

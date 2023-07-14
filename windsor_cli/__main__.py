@@ -1,10 +1,10 @@
 import json
 
-from windsor_cli.src.cli_helpers.cli import cli_arguments_extractor
-from windsor_cli.src.client_helpers.file_downloader import (
+from src.cli_helpers.cli import cli_arguments_extractor
+from src.client_helpers.file_downloader import (
     get_file_as_dictionary,
 )
-from windsor_cli.src.client_helpers.exceptions import (
+from src.client_helpers.exceptions import (
     GoogleDriveDownloadException,
 )
 
